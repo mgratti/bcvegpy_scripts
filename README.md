@@ -1,4 +1,4 @@
-Useful scripts to produce LHE files for Bc meson, using BCVEGPY version 2.2 (generator can be dowloaded [here](http://cpc.cs.qub.ac.uk/summaries/ADTJ_v2_3.html)).  
+Useful scripts to produce LHE files for Bc meson, using BCVEGPY version 2.2b (generator can be dowloaded [here](https://cernbox.cern.ch/index.php/s/0igtc8X3mf2mR0x)).  
 
 Instructions below are a development of what presented [here](https://indico.cern.ch/event/238056/contributions/1552957/attachments/400031/556227/bcvegpy.pdf), and allow to use the package with Condor batch system on lxplus.
 
