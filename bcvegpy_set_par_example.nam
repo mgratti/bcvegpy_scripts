@@ -1,0 +1,16 @@
+ $bcvegpy_set_par   
+   ENERGYOFTEVA = 1.96d+3
+   ENERGYOFLHC  = 1.30d+4
+   pmassb       = 5.0d0  
+   pmassc       = 1.275d0 
+   ptcutbc      = 8.0
+   ycutbc       = 2.5
+   naccel       = 2 
+   i_mix        = 1
+   mix_type     = 1
+   igentype     = 2
+   NUMOFEVENTS  = 1000000
+   NVEGCALL     = 100000
+   NVEGITMX     = 32
+   ibcrandom    = 19305
+ $End
