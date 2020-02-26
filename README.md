@@ -9,7 +9,7 @@ To produce multiple LHE files and submit on condor queues on lxplus:
 ``` 
 cd test
 sh job_condor.sh
-condor_subit condor_multiple.cfg
+condor_submit condor_multiple.cfg
 ```
 
 The number of jobs is set into job_condor.sh.  
