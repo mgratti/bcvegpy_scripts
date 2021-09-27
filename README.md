@@ -5,12 +5,14 @@ Instructions below are a development of what presented [here](https://indico.cer
 Parameters for the Bc generation are set in the file ``bcvegpy2.2b/bcvegpy_set_par.nam``.
 An example of cfg is as in bcvegpy_set_par_example.nam.
 
-To produce multiple LHE files and submit on condor queues on lxplus:
+To produce multiple LHE files and submit on condor queues on lxplus, edit `job_condor.sh` and `condor_multiple.cfg` to your needs, then: 
 ``` 
 cd test
 sh job_condor.sh
 condor_submit condor_multiple.cfg
 ```
 
-The number of jobs is set into job_condor.sh.  
-The number of events per job is set into bcvegpy_set_par.nam
+Please note:
+  * first, do an interactive run with `igentype=1`, `NUMOFEVENTS=10`. Copy the resulting `data/*` into `template/data/.`, so that it can be used for the other runs
+  * second, run all batch jobs by setting `igentype=2`, `NUMOFEVENTS=wanted_events`.
+
